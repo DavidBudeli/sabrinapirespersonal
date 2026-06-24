@@ -20,8 +20,9 @@ export function About() {
             alt={imageAlts.portrait}
             height={1080}
             imageClassName="aspect-[4/5]"
-            objectPosition="50% 20%"
+            objectPosition="50% 8%"
             quality={92}
+            reveal={false}
             sizes="(min-width: 1024px) 420px, (min-width: 640px) 520px, 92vw"
             src={siteConfig.portraitImage}
             width={1080}
