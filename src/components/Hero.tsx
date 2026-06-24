@@ -115,8 +115,8 @@ export function Hero() {
               alt={imageAlts.hero}
               className="rounded-[28px] shadow-[0_32px_80px_rgba(90,62,54,0.2)]"
               height={1440}
-              imageClassName="aspect-square sm:aspect-[3/4] lg:aspect-[4/5]"
-              objectPosition="50% 18%"
+              imageClassName="aspect-[4/5] sm:aspect-[3/4] lg:aspect-[4/5]"
+              objectPosition="50% 8%"
               priority
               quality={94}
               reveal={false}
