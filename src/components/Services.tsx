@@ -52,7 +52,7 @@ export function Services() {
                 <a
                   className="button-shine mt-8 inline-flex min-h-12 w-full items-center justify-center gap-2 rounded-full bg-[#2F211D] px-5 py-3 text-center text-sm font-semibold text-white transition hover:bg-[#5A3E36]"
                   href={siteConfig.whatsappUrl}
-                  rel="noreferrer"
+                  rel="noopener noreferrer"
                   target="_blank"
                 >
                   {service.cta}

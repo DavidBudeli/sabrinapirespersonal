@@ -56,7 +56,7 @@ export function Pilates() {
           <a
             className="button-shine mt-8 inline-flex min-h-13 w-full items-center justify-center gap-2 rounded-full bg-[#2F211D] px-6 py-4 text-sm font-semibold text-white transition hover:bg-[#5A3E36] sm:w-auto"
             href={siteConfig.whatsappUrl}
-            rel="noreferrer"
+            rel="noopener noreferrer"
             target="_blank"
           >
             Quero avaliar meu caso

@@ -71,11 +71,11 @@ export function Hero() {
             personalizada.
           </p>
 
-          <div className="mt-6 flex flex-col gap-3 sm:mt-8 sm:flex-row" data-hero-cta>
+          <div className="mt-8 hidden gap-3 sm:flex sm:flex-row" data-hero-cta>
             <a
               className="button-shine inline-flex min-h-13 items-center justify-center gap-2 rounded-full bg-[#2F211D] px-6 py-4 text-center text-sm font-semibold text-white shadow-[0_18px_38px_rgba(47,33,29,0.22)] transition hover:bg-[#5A3E36] sm:text-base"
               href={siteConfig.whatsappUrl}
-              rel="noreferrer"
+              rel="noopener noreferrer"
               target="_blank"
             >
               Solicitar avaliação personalizada

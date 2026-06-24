@@ -8,7 +8,7 @@ export function Footer() {
     <footer className="border-t border-[#5A3E36]/10 bg-white pt-10 pb-28 md:pb-10">
       <div className="container-shell grid gap-8 md:grid-cols-[1.1fr_0.9fr]">
         <div>
-          <BrandLogo className="w-[244px]" sizes="244px" tone="dark" variant="horizontal" />
+          <BrandLogo className="w-[270px]" sizes="270px" tone="dark" variant="horizontal" />
           <p className="mt-2 text-sm text-[#5A3E36]/72">
             Consultoria online, presencial e Pilates
           </p>
@@ -22,7 +22,7 @@ export function Footer() {
           <a
             className="inline-flex items-center gap-2 transition hover:text-[#2F211D] md:justify-end"
             href={siteConfig.instagramUrl}
-            rel="noreferrer"
+            rel="noopener noreferrer"
             target="_blank"
           >
             <AtSign aria-hidden="true" className="size-4" />
@@ -31,7 +31,7 @@ export function Footer() {
           <a
             className="inline-flex items-center gap-2 transition hover:text-[#2F211D] md:justify-end"
             href={siteConfig.whatsappUrl}
-            rel="noreferrer"
+            rel="noopener noreferrer"
             target="_blank"
           >
             <Phone aria-hidden="true" className="size-4" />

@@ -52,7 +52,7 @@ export function Differential() {
           <a
             className="button-shine mt-8 inline-flex min-h-13 w-full items-center justify-center gap-2 rounded-full bg-[#FFF8F3] px-6 py-4 text-sm font-semibold text-[#2F211D] transition hover:bg-white sm:w-auto"
             href={siteConfig.whatsappUrl}
-            rel="noreferrer"
+            rel="noopener noreferrer"
             target="_blank"
           >
             Solicitar avaliação personalizada

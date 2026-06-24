@@ -54,7 +54,7 @@ export function FinalCTA() {
                 <a
                   className="button-shine inline-flex min-h-13 items-center justify-center gap-2 rounded-full bg-[#2F211D] px-6 py-4 text-center text-sm font-semibold text-white transition hover:bg-[#5A3E36] sm:text-base"
                   href={siteConfig.whatsappUrl}
-                  rel="noreferrer"
+                  rel="noopener noreferrer"
                   target="_blank"
                 >
                   Solicitar avaliação personalizada
@@ -63,7 +63,7 @@ export function FinalCTA() {
                 <a
                   className="inline-flex min-h-13 items-center justify-center gap-2 rounded-full border border-white/34 bg-white/14 px-6 py-4 text-sm font-semibold text-white transition hover:bg-white/22 sm:text-base"
                   href={siteConfig.instagramUrl}
-                  rel="noreferrer"
+                  rel="noopener noreferrer"
                   target="_blank"
                 >
                   <AtSign aria-hidden="true" className="size-5" />

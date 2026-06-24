@@ -34,9 +34,9 @@ const assetMap: Record<BrandLogoVariant, Record<BrandLogoTone, string>> = {
 };
 
 const sizeMap: Record<BrandLogoVariant, { width: number; height: number }> = {
-  horizontal: { width: 760, height: 210 },
-  vertical: { width: 620, height: 500 },
-  monogram: { width: 420, height: 360 },
+  horizontal: { width: 900, height: 250 },
+  vertical: { width: 700, height: 560 },
+  monogram: { width: 560, height: 440 },
 };
 
 const altMap: Record<BrandLogoVariant, string> = {

@@ -18,22 +18,26 @@ export const siteConfig = {
 };
 
 export const brandAssets = {
-  logoHorizontalDark: "/assets/brand/logo-horizontal-dark.png",
-  logoHorizontalWhite: "/assets/brand/logo-horizontal-white.png",
-  logoHorizontalTerracotta: "/assets/brand/logo-horizontal-terracotta.png",
-  logoVerticalDark: "/assets/brand/logo-vertical-dark.png",
-  logoVerticalWhite: "/assets/brand/logo-vertical-white.png",
-  logoVerticalTerracotta: "/assets/brand/logo-vertical-terracotta.png",
-  monogramDark: "/assets/brand/monogram-sp-dark.png",
-  monogramWhite: "/assets/brand/monogram-sp-white.png",
-  monogramTerracotta: "/assets/brand/monogram-sp-terracotta.png",
-  monogramCircleDark: "/assets/brand/monogram-sp-circle-dark.png",
-  monogramCircleWhite: "/assets/brand/monogram-sp-circle-white.png",
-  monogramCircleTerracotta: "/assets/brand/monogram-sp-circle-terracotta.png",
+  logoHorizontalDark: "/assets/brand/logo-horizontal-dark-safe.png",
+  logoHorizontalWhite: "/assets/brand/logo-horizontal-white-safe.png",
+  logoHorizontalTerracotta: "/assets/brand/logo-horizontal-terracotta-safe.png",
+  logoVerticalDark: "/assets/brand/logo-vertical-dark-safe.png",
+  logoVerticalWhite: "/assets/brand/logo-vertical-white-safe.png",
+  logoVerticalTerracotta: "/assets/brand/logo-vertical-terracotta-safe.png",
+  monogramDark: "/assets/brand/monogram-sp-dark-safe.png",
+  monogramWhite: "/assets/brand/monogram-sp-white-safe.png",
+  monogramTerracotta: "/assets/brand/monogram-sp-terracotta-safe.png",
+  monogramCircleDark: "/assets/brand/monogram-sp-circle-dark-safe.png",
+  monogramCircleWhite: "/assets/brand/monogram-sp-circle-white-safe.png",
+  monogramCircleTerracotta: "/assets/brand/monogram-sp-circle-terracotta-safe.png",
   favicon: "/assets/brand/favicon.svg",
   faviconIco: "/assets/brand/favicon.ico",
   appleTouchIcon: "/assets/brand/apple-touch-icon.png",
   ogImage: "/assets/brand/og-sabrina-pires.png",
+};
+
+export const iconAssets = {
+  whatsapp: "/assets/icons/whatsapp.png",
 };
 
 export const imageAlts = {

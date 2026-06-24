@@ -20,16 +20,16 @@ export function Header() {
           onClick={() => setIsOpen(false)}
         >
           <BrandLogo
-            className="hidden h-auto w-[210px] md:block xl:w-[222px]"
+            className="hidden h-auto w-[236px] md:block xl:w-[250px]"
             priority
-            sizes="(min-width: 1280px) 222px, (min-width: 768px) 210px, 1px"
+            sizes="(min-width: 1280px) 250px, (min-width: 768px) 236px, 1px"
             tone="dark"
             variant="horizontal"
           />
           <BrandLogo
-            className="block h-10 w-12 md:hidden"
+            className="block h-10 w-14 md:hidden"
             priority
-            sizes="(max-width: 767px) 48px, 1px"
+            sizes="(max-width: 767px) 56px, 1px"
             tone="dark"
             variant="monogram"
           />
@@ -50,7 +50,7 @@ export function Header() {
         <a
           className="button-shine hidden h-11 items-center justify-center gap-2 rounded-full bg-[#2F211D] px-5 text-sm font-semibold text-white transition hover:bg-[#5A3E36] xl:inline-flex"
           href={siteConfig.whatsappUrl}
-          rel="noreferrer"
+          rel="noopener noreferrer"
           target="_blank"
         >
           Falar com a Sabrina
@@ -91,7 +91,7 @@ export function Header() {
             className="button-shine mt-1 inline-flex h-12 items-center justify-center gap-2 rounded-full bg-[#2F211D] px-5 text-sm font-semibold text-white"
             href={siteConfig.whatsappUrl}
             onClick={() => setIsOpen(false)}
-            rel="noreferrer"
+            rel="noopener noreferrer"
             target="_blank"
           >
             Solicitar avaliação personalizada
